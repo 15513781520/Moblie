@@ -1,0 +1,172 @@
+html {
+  font-size: 5.33333333vw;
+}
+body {
+  min-width: 320px;
+  padding: 0.525rem 0.6rem 0 0.625rem;
+  background-color: #eff0f4;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.75rem;
+}
+header .menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 0.85rem;
+}
+header .menu-btn li {
+  width: 1.2rem;
+  height: 0.15rem;
+  background-color: #999;
+  border-radius: 0.15rem;
+}
+header .menu-btn li:nth-child(2) {
+  width: 0.75rem;
+}
+header h1 {
+  width: 10rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  background-image: linear-gradient(45deg, #FE8268 20%, #C657FF 20%, #C657FF 40%, #FE8268 40%, #FE8268 60%, #C657FF 60%, #C657FF 80%, #FE8268 80%);
+  background-size: 20% 100%;
+  background-position-x: 0;
+  animation: run 5s linear infinite;
+}
+header h1::before {
+  content: "我要学前端";
+  background-image: linear-gradient(180deg, #FF3971 20%, #1D92FF 20%, #1D92FF 40%, #FF3971 40%, #FF3971 60%, #1D92FF 60%, #1D92FF 80%, #FF3971 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+header .search {
+  color: #656565;
+}
+@keyframes run {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
+.banner {
+  box-shadow: 5px 5px 11px 0px rgba(182, 182, 182, 0.5);
+  border-radius: 0.5rem;
+}
+.banner img {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+nav {
+  margin-top: 1rem;
+}
+nav .nav-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 6.1rem;
+}
+nav .nav-wrap li {
+  width: 8.375rem;
+  height: 2.75rem;
+  text-align: center;
+  font-size: 0.75rem;
+  background: linear-gradient(-90deg, #f97053 56%, #f47866 100%);
+  border-radius: 0.325rem;
+  box-shadow: 5px 5px 8px 0px rgba(187, 187, 187, 0.42);
+}
+nav .nav-wrap li:nth-child(2) {
+  background: linear-gradient(-90deg, #c657ff 56%, #d484fd 100%);
+}
+nav .nav-wrap li:nth-child(3) {
+  background: linear-gradient(-90deg, #ff3971 56%, #fe497c 100%);
+}
+nav .nav-wrap li:nth-child(4) {
+  background: linear-gradient(-90deg, #1d92ff 56%, #1bc9fb 100%);
+}
+nav .nav-wrap li a {
+  display: block;
+  line-height: 2.75rem;
+  color: #fff;
+}
+nav .nav-wrap li a i {
+  margin-right: 0.875rem;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+main .column {
+  margin-top: 1.25rem;
+}
+main .column .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .column .title h2 {
+  text-indent: 0.45rem;
+  font-size: 16px;
+  font-size: 0.8rem;
+  color: #24253D;
+  border-left: 3px solid #3A84FF;
+}
+main .column .title a {
+  font-size: 14px;
+  font-size: 0.7rem;
+  color: #656565;
+}
+main .column .course-list {
+  display: flex;
+  margin-top: 1.075rem;
+  overflow: auto;
+  width: 103%;
+  height: 8.375rem;
+}
+main .column .course-list .course {
+  flex: 0 0 8.2rem;
+  margin-right: 0.6rem;
+  box-sizing: border-box;
+  width: 8.2rem;
+  height: 8.075rem;
+  padding: 0.525rem;
+  border-radius: 0.325rem;
+  background-color: #fff;
+  box-shadow: 5px 5px 11px 0px rgba(182, 182, 182, 0.3);
+}
+main .column .course-list .course a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+main .column .course-list .course a > img {
+  width: 100%;
+}
+main .column .course-list .course a h3 {
+  font-size: 0.8rem;
+  color: #24253D;
+}
+main .column .course-list .course a h4 {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #969393;
+}
+main .column .course-list .course a h4 img {
+  display: inline-block;
+  margin-right: 8px;
+  width: 1.05rem;
+}
+/*# sourceMappingURL=./index.css.map */
